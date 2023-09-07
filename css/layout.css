@@ -17,6 +17,7 @@ h2 {
 }
 table {
   margin-bottom: 1rem;
+  border-collapse: collapse;
 }
 tr {
   line-height: 1.5;
@@ -26,4 +27,19 @@ td {
 }
 th {
   padding-right: 2rem;
+}
+.eka {
+  display: flex;
+  flex-direction: row; /* Display .boxes elements in a row */
+  align-items: flex-start; /* Allow elements to take content-based height */
+}
+/* .ulheaders {
+  list-style: none;
+}
+.ulboxes {
+  background: lightgray;
+} */
+i {
+  padding-left: 2px;
+  padding-right: 2px;
 }
